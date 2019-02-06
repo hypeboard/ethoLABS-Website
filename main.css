@@ -52,3 +52,22 @@
   background-color: #ffff;
   color: black;
 }
+
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  background-color: #555;
+  color: white;
+  left: 660px;
+  top: 400px;
+  font-size: 16px;
+  padding: 30px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
