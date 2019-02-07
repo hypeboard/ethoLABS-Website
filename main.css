@@ -175,3 +175,38 @@ td {
 * {
   box-sizing: border-box;
 }
+
+/* Table on the fund tracker page */
+.tg th{
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style:solid;
+  border-width:1px;
+  overflow: auto;
+  word-break:normal;
+  border-color:white;
+  color: white;
+}
+
+.tg  {
+  border-collapse: collapse;
+  border-spacing: 3;
+}
+
+.tg .tg-s268{
+  text-align: center;
+}
+
+.tg .tg-0lax{
+  text-align: left;
+  vertical-align: top;
+}
+
+.tg td {
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 2px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: white;
+}
