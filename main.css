@@ -56,12 +56,15 @@ body, html {
 }
 
 .hero-image {
-  background-image: url("http://data.ethofs.com/ipfs/QmNpfFi7CGHgsfv4ot3GwdyoZux6CSckmS39XLXHpP4cxF");
-  height: 75%;
+  background-image: url("ETHOheader.png");
+  height: 100%;
+  width: 100%;
+min-width: 100%;
+min-height: 100%;
+position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .hero-text {
