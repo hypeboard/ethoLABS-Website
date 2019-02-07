@@ -90,3 +90,12 @@ body, html {
   background-color: #840032;
   color: white;
 }
+
+.fa {
+  padding: 40px;
+  font-size: 60px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
