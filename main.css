@@ -99,3 +99,31 @@ body, html {
   text-decoration: none;
   border-radius: 50%;
 }
+
+.page-wrap { background: black; }
+
+body {
+  background-color: #000000;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+td {
+  color: white;
+}
