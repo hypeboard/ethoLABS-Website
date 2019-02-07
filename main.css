@@ -145,6 +145,7 @@ td {
 .rightcolumn {
   float: left;
   width: 30%;
+  height: 500px
 }
 
 
@@ -176,6 +177,19 @@ td {
   box-sizing: border-box;
 }
 
+/* Start of Hypes Code 
+ table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    color: white; 
+  }
+
+table, th, td {
+  border: 1px white;
+}
+
+End of Hypes code */
+
 /* Table on the fund tracker page */
 .tg th{
   font-weight: normal;
@@ -184,13 +198,14 @@ td {
   border-width:1px;
   overflow: auto;
   word-break:normal;
-  border-color:white;
   color: white;
 }
 
 .tg  {
   border-collapse: collapse;
   border-spacing: 3;
+      margin-left:auto; 
+    margin-right:auto;
 }
 
 .tg .tg-s268{
@@ -208,5 +223,28 @@ td {
   border-width: 2px;
   overflow: hidden;
   word-break: normal;
-  border-color: white;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding:  5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
 }
